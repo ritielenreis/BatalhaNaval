@@ -29,7 +29,7 @@ class Jogo: ObservableObject, Hashable {
         self.tabuleiroDefinido = tabuleiroDefinido
     }
     
-    //Funcoes que torna a classe Jogo Hashble (iterável)
+    //Funcoes que tornam a classe Jogo Hashble (iterável)
     static func == (lhs: Jogo, rhs: Jogo) -> Bool {
             return lhs.id == rhs.id // Comparando pelo ID único
         }
@@ -61,6 +61,8 @@ class Jogo: ObservableObject, Hashable {
 
     
     func realizarJogada(em id: Int){
+        
+        //adicionar logica aqui
         alternarTurno()
         checarVencedor()
     }
@@ -68,5 +70,9 @@ class Jogo: ObservableObject, Hashable {
     func alternarTurno() {
         jogadorAtual = jogadorAtual == 1 ? 2 : 1 // se o jogador atual é o 1, passa a ser o 2 e vice e versa
     }
-    func checarVencedor(){}
+    func checarVencedor(){
+        //se jogador1.tabuleiroInimigo.todosNaviosDestruidos = true, vencedor = jogador1
+        // senao se jogador12.tabuleiroInimigo.todosNaviosDestruidos = true, vencedor = jogador2
+        //senao continuar jogo
+    }
 }

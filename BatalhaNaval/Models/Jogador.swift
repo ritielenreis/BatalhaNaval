@@ -31,7 +31,7 @@ class Jogador {
         }
     
     func verificarTabuleiro() -> Bool{
-        //ver funcao desse método
+        //esse método seria equivalente ao Tabuleiro.todosNaviosDestruidos??
         //adicionar codigo correspondente
         return true
     }

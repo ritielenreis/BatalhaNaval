@@ -21,7 +21,7 @@ struct GameView: View {
                 .font(.subheadline)
 
             LazyVGrid(columns: columns, spacing: 8) {
-                ForEach((jogo.jogadorAtual == 1 ? jogo.jogador2.tabuleiroProprio.coordenadas : jogo.jogador1.tabuleiroProprio.coordenadas)) { coord in
+                ForEach((jogo.jogadorAtual == 1 ? jogo.jogador2.tabuleiroProprio.coordenadas : jogo.jogador1.tabuleiroProprio.coordenadas)) { coord in  //se for o turno do jogador 1 entao busca as coordenadas do jopgador 2, e vice versa
                     Button(action: {
                         jogo.realizarJogada(em: coord.id)
                     }) {

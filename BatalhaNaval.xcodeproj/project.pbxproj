@@ -18,7 +18,6 @@
 		CCECCF932DA1E25B00D3976E /* Coordenada.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF922DA1E25B00D3976E /* Coordenada.swift */; };
 		CCECCF952DA1E26F00D3976E /* Jogador.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF942DA1E26F00D3976E /* Jogador.swift */; };
 		CCECCF972DA1E27B00D3976E /* Tabuleiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF962DA1E27B00D3976E /* Tabuleiro.swift */; };
-		CCECCF992DA1E28900D3976E /* Navio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF982DA1E28900D3976E /* Navio.swift */; };
 		CCECCF9B2DA1F53600D3976E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF9A2DA1F53600D3976E /* GameView.swift */; };
 		CCECCFD32DA2148100D3976E /* CoordenadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCFD22DA2148100D3976E /* CoordenadaView.swift */; };
 /* End PBXBuildFile section */
@@ -56,7 +55,6 @@
 		CCECCF922DA1E25B00D3976E /* Coordenada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordenada.swift; sourceTree = "<group>"; };
 		CCECCF942DA1E26F00D3976E /* Jogador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jogador.swift; sourceTree = "<group>"; };
 		CCECCF962DA1E27B00D3976E /* Tabuleiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabuleiro.swift; sourceTree = "<group>"; };
-		CCECCF982DA1E28900D3976E /* Navio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navio.swift; sourceTree = "<group>"; };
 		CCECCF9A2DA1F53600D3976E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		CCECCFD22DA2148100D3976E /* CoordenadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordenadaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,7 +151,6 @@
 				CCECCF922DA1E25B00D3976E /* Coordenada.swift */,
 				CCECCF942DA1E26F00D3976E /* Jogador.swift */,
 				CCECCF962DA1E27B00D3976E /* Tabuleiro.swift */,
-				CCECCF982DA1E28900D3976E /* Navio.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -291,7 +288,6 @@
 				CCECCF672DA1DB9A00D3976E /* Menu.swift in Sources */,
 				CCECCF972DA1E27B00D3976E /* Tabuleiro.swift in Sources */,
 				CCECCF652DA1DB9A00D3976E /* BatalhaNavalApp.swift in Sources */,
-				CCECCF992DA1E28900D3976E /* Navio.swift in Sources */,
 				CCECCFD32DA2148100D3976E /* CoordenadaView.swift in Sources */,
 				CCECCF952DA1E26F00D3976E /* Jogador.swift in Sources */,
 				CCECCF902DA1DFCC00D3976E /* Jogo.swift in Sources */,

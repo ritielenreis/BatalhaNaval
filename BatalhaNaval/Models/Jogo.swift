@@ -38,6 +38,7 @@ class Jogo: ObservableObject, Hashable {
         hasher.combine(id) // Usando o ID único para gerar o hash
     }
     
+    //equivale á Jogo.definirNavios
     func posicionarNavioJogador(em id: Int){
         if naviosRestantes > 0 && jogador1.tabuleiroProprio.posicionarNavio(em: id) {
             naviosRestantes -= 1
@@ -58,7 +59,14 @@ class Jogo: ObservableObject, Hashable {
         tabuleiroDefinido = false
     }
 
-    func realizarJogada(em id: Int){}
-    func alternarTurno() {}
+    
+    func realizarJogada(em id: Int){
+        alternarTurno()
+        checarVencedor()
+    }
+    
+    func alternarTurno() {
+        jogadorAtual = jogadorAtual == 1 ? 2 : 1 // se o jogador atual é o 1, passa a ser o 2 e vice e versa
+    }
     func checarVencedor(){}
 }

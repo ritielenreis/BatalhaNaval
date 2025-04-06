@@ -21,7 +21,7 @@ struct GameView: View {
                 .font(.subheadline)
 
             LazyVGrid(columns: columns, spacing: 8) {
-                ForEach((jogo.jogadorAtual == 1 ? jogo.jogador2.tabuleiro.coordenadas : jogo.jogador1.tabuleiro.coordenadas)) { coord in
+                ForEach((jogo.jogadorAtual == 1 ? jogo.jogador2.tabuleiroProprio.coordenadas : jogo.jogador1.tabuleiroProprio.coordenadas)) { coord in
                     Button(action: {
                         jogo.realizarJogada(em: coord.id)
                     }) {
@@ -63,6 +63,6 @@ struct GameView: View {
 }
 
 #Preview {
-    GameView(jogo: Jogo(jogador1: Jogador(tabuleiro: Tabuleiro(), tirosFeitos: []), jogador2: Jogador(tabuleiro: Tabuleiro(), tirosFeitos: []), jogadorAtual: 1, jogoFinalizado: false, naviosRestantes: 0, tabuleiroDefinido: true))
+    GameView(jogo: Jogo(jogador1: Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: []), jogador2: Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: []), jogadorAtual: 1, jogoFinalizado: false, naviosRestantes: 0, tabuleiroDefinido: true))
 }
 

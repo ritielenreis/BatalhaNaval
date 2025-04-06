@@ -11,7 +11,7 @@ import SwiftUI
 struct BatalhaNavalApp: App {
     var body: some Scene {
         WindowGroup {
-            Menu(jogo: Jogo(jogador1: Jogador(tabuleiro: Tabuleiro(), tirosFeitos: []), jogador2: Jogador(tabuleiro: Tabuleiro(), tirosFeitos: []), jogadorAtual: 1, jogoFinalizado: false, naviosRestantes: 5, tabuleiroDefinido: false))
+            Menu(jogo: Jogo(jogador1: Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: []), jogador2: Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: []), jogadorAtual: 1, jogoFinalizado: false, naviosRestantes: 5, tabuleiroDefinido: false))
         }
     }
 }

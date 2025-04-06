@@ -22,7 +22,7 @@ struct Menu: View {
                     .font(.subheadline)
                 
                 LazyVGrid(columns: columns, spacing: 5) {
-                    ForEach(jogo.jogador1.tabuleiro.coordenadas) { coord in
+                    ForEach(jogo.jogador1.tabuleiroProprio.coordenadas) { coord in
                         Button(action: {
                             jogo.posicionarNavioJogador(em: coord.id)
                             
@@ -52,6 +52,6 @@ struct Menu: View {
 }
 
 #Preview {
-    Menu(jogo: Jogo(jogador1: Jogador(tabuleiro: Tabuleiro(), tirosFeitos: []), jogador2: Jogador(tabuleiro: Tabuleiro(), tirosFeitos: []), jogadorAtual: 1, jogoFinalizado: false, naviosRestantes: 5, tabuleiroDefinido: false))
+    Menu(jogo: Jogo(jogador1: Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: []), jogador2: Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: []), jogadorAtual: 1, jogoFinalizado: false, naviosRestantes: 5, tabuleiroDefinido: false))
 }
 

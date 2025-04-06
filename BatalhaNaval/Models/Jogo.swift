@@ -29,16 +29,17 @@ class Jogo: ObservableObject, Hashable {
         self.tabuleiroDefinido = tabuleiroDefinido
     }
     
+    //Funcoes que torna a classe Jogo Hashble (iterável)
     static func == (lhs: Jogo, rhs: Jogo) -> Bool {
             return lhs.id == rhs.id // Comparando pelo ID único
         }
         
-        func hash(into hasher: inout Hasher) {
-            hasher.combine(id) // Usando o ID único para gerar o hash
-        }
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id) // Usando o ID único para gerar o hash
+    }
     
     func posicionarNavioJogador(em id: Int){
-        if naviosRestantes > 0 && jogador1.tabuleiro.posicionarNavio(em: id) {
+        if naviosRestantes > 0 && jogador1.tabuleiroProprio.posicionarNavio(em: id) {
             naviosRestantes -= 1
         }
 
@@ -48,8 +49,8 @@ class Jogo: ObservableObject, Hashable {
     }
 
     func reiniciarJogo() {
-        jogador1 = Jogador(tabuleiro: Tabuleiro(), tirosFeitos: [])
-        jogador2 = Jogador(tabuleiro: Tabuleiro(), tirosFeitos: [])
+        jogador1 = Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: [])
+        jogador2 = Jogador(tabuleiroProprio: Tabuleiro(), tirosFeitos: [])
         jogadorAtual = 1
         jogoFinalizado = false
         vencedor = nil

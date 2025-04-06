@@ -8,22 +8,23 @@
 import Foundation
 
 class Jogador {
-    var tabuleiro: Tabuleiro
+    var tabuleiroProprio: Tabuleiro
     var tirosFeitos: [Int] = []
     
-    init(tabuleiro: Tabuleiro = Tabuleiro(), tirosFeitos: [Int]) {
-        self.tabuleiro = tabuleiro
+    init(tabuleiroProprio: Tabuleiro = Tabuleiro(), tirosFeitos: [Int]) {
+        self.tabuleiroProprio = tabuleiroProprio
         self.tirosFeitos = tirosFeitos
     }
         
     func atirar(id: Int, tabuleiroInimigo: Tabuleiro) -> Bool {
         guard !tirosFeitos.contains(id) else {return false}
         tirosFeitos.append(id)
-        return tabuleiroInimigo.atacarCoordenada(id)
+        let resultado = tabuleiroInimigo.atacarCoordenada(id: id)
+        return resultado
     }
     
     func adicionarTiro(tiro: Int) {
-            //tirosFeitos.append(tiro)
+        tirosFeitos.append(tiro)
         }
     
     

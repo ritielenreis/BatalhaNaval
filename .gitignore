@@ -1,0 +1,37 @@
+# Build generated files
+build/
+DerivedData/
+*.xcodeproj/project.xcworkspace/
+*.xcuserdata/
+
+# User-specific files
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+/.build/
+Package.pins
+Package.resolved
+
+# Xcode specific
+xcuserdata/
+
+# SwiftPM build products
+/.build/
+
+# Playground data
+timeline.xctimeline
+playground.xcworkspace
+
+# Other generated files
+*.hmap
+

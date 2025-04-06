@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCECCF652DA1DB9A00D3976E /* BatalhaNavalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF642DA1DB9A00D3976E /* BatalhaNavalApp.swift */; };
+		CCECCF672DA1DB9A00D3976E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF662DA1DB9A00D3976E /* Menu.swift */; };
+		CCECCF692DA1DB9B00D3976E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCECCF682DA1DB9B00D3976E /* Assets.xcassets */; };
+		CCECCF6D2DA1DB9B00D3976E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCECCF6C2DA1DB9B00D3976E /* Preview Assets.xcassets */; };
+		CCECCF772DA1DB9C00D3976E /* BatalhaNavalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF762DA1DB9C00D3976E /* BatalhaNavalTests.swift */; };
+		CCECCF812DA1DB9C00D3976E /* BatalhaNavalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF802DA1DB9C00D3976E /* BatalhaNavalUITests.swift */; };
+		CCECCF832DA1DB9C00D3976E /* BatalhaNavalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF822DA1DB9C00D3976E /* BatalhaNavalUITestsLaunchTests.swift */; };
+		CCECCF902DA1DFCC00D3976E /* Jogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF8F2DA1DFCC00D3976E /* Jogo.swift */; };
+		CCECCF932DA1E25B00D3976E /* Coordenada.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF922DA1E25B00D3976E /* Coordenada.swift */; };
+		CCECCF952DA1E26F00D3976E /* Jogador.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF942DA1E26F00D3976E /* Jogador.swift */; };
+		CCECCF972DA1E27B00D3976E /* Tabuleiro.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF962DA1E27B00D3976E /* Tabuleiro.swift */; };
+		CCECCF992DA1E28900D3976E /* Navio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF982DA1E28900D3976E /* Navio.swift */; };
+		CCECCF9B2DA1F53600D3976E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCF9A2DA1F53600D3976E /* GameView.swift */; };
+		CCECCFD32DA2148100D3976E /* CoordenadaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCECCFD22DA2148100D3976E /* CoordenadaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCECCF732DA1DB9C00D3976E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCECCF592DA1DB9A00D3976E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCECCF602DA1DB9A00D3976E;
+			remoteInfo = BatalhaNaval;
+		};
+		CCECCF7D2DA1DB9C00D3976E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCECCF592DA1DB9A00D3976E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCECCF602DA1DB9A00D3976E;
+			remoteInfo = BatalhaNaval;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCECCF612DA1DB9A00D3976E /* BatalhaNaval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatalhaNaval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECCF642DA1DB9A00D3976E /* BatalhaNavalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatalhaNavalApp.swift; sourceTree = "<group>"; };
+		CCECCF662DA1DB9A00D3976E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		CCECCF682DA1DB9B00D3976E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCECCF6A2DA1DB9B00D3976E /* BatalhaNaval.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatalhaNaval.entitlements; sourceTree = "<group>"; };
+		CCECCF6C2DA1DB9B00D3976E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCECCF722DA1DB9C00D3976E /* BatalhaNavalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatalhaNavalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECCF762DA1DB9C00D3976E /* BatalhaNavalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatalhaNavalTests.swift; sourceTree = "<group>"; };
+		CCECCF7C2DA1DB9C00D3976E /* BatalhaNavalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatalhaNavalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCECCF802DA1DB9C00D3976E /* BatalhaNavalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatalhaNavalUITests.swift; sourceTree = "<group>"; };
+		CCECCF822DA1DB9C00D3976E /* BatalhaNavalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatalhaNavalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCECCF8F2DA1DFCC00D3976E /* Jogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jogo.swift; sourceTree = "<group>"; };
+		CCECCF922DA1E25B00D3976E /* Coordenada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordenada.swift; sourceTree = "<group>"; };
+		CCECCF942DA1E26F00D3976E /* Jogador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jogador.swift; sourceTree = "<group>"; };
+		CCECCF962DA1E27B00D3976E /* Tabuleiro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabuleiro.swift; sourceTree = "<group>"; };
+		CCECCF982DA1E28900D3976E /* Navio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navio.swift; sourceTree = "<group>"; };
+		CCECCF9A2DA1F53600D3976E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		CCECCFD22DA2148100D3976E /* CoordenadaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordenadaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCECCF5E2DA1DB9A00D3976E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECCF6F2DA1DB9C00D3976E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECCF792DA1DB9C00D3976E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCECCF582DA1DB9A00D3976E = {
+			isa = PBXGroup;
+			children = (
+				CCECCF632DA1DB9A00D3976E /* BatalhaNaval */,
+				CCECCF752DA1DB9C00D3976E /* BatalhaNavalTests */,
+				CCECCF7F2DA1DB9C00D3976E /* BatalhaNavalUITests */,
+				CCECCF622DA1DB9A00D3976E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCECCF622DA1DB9A00D3976E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCECCF612DA1DB9A00D3976E /* BatalhaNaval.app */,
+				CCECCF722DA1DB9C00D3976E /* BatalhaNavalTests.xctest */,
+				CCECCF7C2DA1DB9C00D3976E /* BatalhaNavalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCECCF632DA1DB9A00D3976E /* BatalhaNaval */ = {
+			isa = PBXGroup;
+			children = (
+				CCECCF642DA1DB9A00D3976E /* BatalhaNavalApp.swift */,
+				CCECCF662DA1DB9A00D3976E /* Menu.swift */,
+				CCECCF9A2DA1F53600D3976E /* GameView.swift */,
+				CCECCFD22DA2148100D3976E /* CoordenadaView.swift */,
+				CCECCF912DA1E20F00D3976E /* Models */,
+				CCECCF682DA1DB9B00D3976E /* Assets.xcassets */,
+				CCECCF6A2DA1DB9B00D3976E /* BatalhaNaval.entitlements */,
+				CCECCF6B2DA1DB9B00D3976E /* Preview Content */,
+			);
+			path = BatalhaNaval;
+			sourceTree = "<group>";
+		};
+		CCECCF6B2DA1DB9B00D3976E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCECCF6C2DA1DB9B00D3976E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCECCF752DA1DB9C00D3976E /* BatalhaNavalTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCECCF762DA1DB9C00D3976E /* BatalhaNavalTests.swift */,
+			);
+			path = BatalhaNavalTests;
+			sourceTree = "<group>";
+		};
+		CCECCF7F2DA1DB9C00D3976E /* BatalhaNavalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCECCF802DA1DB9C00D3976E /* BatalhaNavalUITests.swift */,
+				CCECCF822DA1DB9C00D3976E /* BatalhaNavalUITestsLaunchTests.swift */,
+			);
+			path = BatalhaNavalUITests;
+			sourceTree = "<group>";
+		};
+		CCECCF912DA1E20F00D3976E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCECCF8F2DA1DFCC00D3976E /* Jogo.swift */,
+				CCECCF922DA1E25B00D3976E /* Coordenada.swift */,
+				CCECCF942DA1E26F00D3976E /* Jogador.swift */,
+				CCECCF962DA1E27B00D3976E /* Tabuleiro.swift */,
+				CCECCF982DA1E28900D3976E /* Navio.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCECCF602DA1DB9A00D3976E /* BatalhaNaval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCECCF862DA1DB9C00D3976E /* Build configuration list for PBXNativeTarget "BatalhaNaval" */;
+			buildPhases = (
+				CCECCF5D2DA1DB9A00D3976E /* Sources */,
+				CCECCF5E2DA1DB9A00D3976E /* Frameworks */,
+				CCECCF5F2DA1DB9A00D3976E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatalhaNaval;
+			productName = BatalhaNaval;
+			productReference = CCECCF612DA1DB9A00D3976E /* BatalhaNaval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCECCF712DA1DB9C00D3976E /* BatalhaNavalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCECCF892DA1DB9C00D3976E /* Build configuration list for PBXNativeTarget "BatalhaNavalTests" */;
+			buildPhases = (
+				CCECCF6E2DA1DB9C00D3976E /* Sources */,
+				CCECCF6F2DA1DB9C00D3976E /* Frameworks */,
+				CCECCF702DA1DB9C00D3976E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCECCF742DA1DB9C00D3976E /* PBXTargetDependency */,
+			);
+			name = BatalhaNavalTests;
+			productName = BatalhaNavalTests;
+			productReference = CCECCF722DA1DB9C00D3976E /* BatalhaNavalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCECCF7B2DA1DB9C00D3976E /* BatalhaNavalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCECCF8C2DA1DB9C00D3976E /* Build configuration list for PBXNativeTarget "BatalhaNavalUITests" */;
+			buildPhases = (
+				CCECCF782DA1DB9C00D3976E /* Sources */,
+				CCECCF792DA1DB9C00D3976E /* Frameworks */,
+				CCECCF7A2DA1DB9C00D3976E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCECCF7E2DA1DB9C00D3976E /* PBXTargetDependency */,
+			);
+			name = BatalhaNavalUITests;
+			productName = BatalhaNavalUITests;
+			productReference = CCECCF7C2DA1DB9C00D3976E /* BatalhaNavalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCECCF592DA1DB9A00D3976E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CCECCF602DA1DB9A00D3976E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CCECCF712DA1DB9C00D3976E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CCECCF602DA1DB9A00D3976E;
+					};
+					CCECCF7B2DA1DB9C00D3976E = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CCECCF602DA1DB9A00D3976E;
+					};
+				};
+			};
+			buildConfigurationList = CCECCF5C2DA1DB9A00D3976E /* Build configuration list for PBXProject "BatalhaNaval" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCECCF582DA1DB9A00D3976E;
+			productRefGroup = CCECCF622DA1DB9A00D3976E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCECCF602DA1DB9A00D3976E /* BatalhaNaval */,
+				CCECCF712DA1DB9C00D3976E /* BatalhaNavalTests */,
+				CCECCF7B2DA1DB9C00D3976E /* BatalhaNavalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCECCF5F2DA1DB9A00D3976E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECCF6D2DA1DB9B00D3976E /* Preview Assets.xcassets in Resources */,
+				CCECCF692DA1DB9B00D3976E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECCF702DA1DB9C00D3976E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECCF7A2DA1DB9C00D3976E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCECCF5D2DA1DB9A00D3976E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECCF672DA1DB9A00D3976E /* Menu.swift in Sources */,
+				CCECCF972DA1E27B00D3976E /* Tabuleiro.swift in Sources */,
+				CCECCF652DA1DB9A00D3976E /* BatalhaNavalApp.swift in Sources */,
+				CCECCF992DA1E28900D3976E /* Navio.swift in Sources */,
+				CCECCFD32DA2148100D3976E /* CoordenadaView.swift in Sources */,
+				CCECCF952DA1E26F00D3976E /* Jogador.swift in Sources */,
+				CCECCF902DA1DFCC00D3976E /* Jogo.swift in Sources */,
+				CCECCF9B2DA1F53600D3976E /* GameView.swift in Sources */,
+				CCECCF932DA1E25B00D3976E /* Coordenada.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECCF6E2DA1DB9C00D3976E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECCF772DA1DB9C00D3976E /* BatalhaNavalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCECCF782DA1DB9C00D3976E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCECCF812DA1DB9C00D3976E /* BatalhaNavalUITests.swift in Sources */,
+				CCECCF832DA1DB9C00D3976E /* BatalhaNavalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCECCF742DA1DB9C00D3976E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCECCF602DA1DB9A00D3976E /* BatalhaNaval */;
+			targetProxy = CCECCF732DA1DB9C00D3976E /* PBXContainerItemProxy */;
+		};
+		CCECCF7E2DA1DB9C00D3976E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCECCF602DA1DB9A00D3976E /* BatalhaNaval */;
+			targetProxy = CCECCF7D2DA1DB9C00D3976E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCECCF842DA1DB9C00D3976E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCECCF852DA1DB9C00D3976E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CCECCF872DA1DB9C00D3976E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatalhaNaval/BatalhaNaval.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BatalhaNaval/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RitielenReis.BatalhaNaval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCECCF882DA1DB9C00D3976E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatalhaNaval/BatalhaNaval.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BatalhaNaval/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RitielenReis.BatalhaNaval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCECCF8A2DA1DB9C00D3976E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RitielenReis.BatalhaNavalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatalhaNaval.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BatalhaNaval";
+			};
+			name = Debug;
+		};
+		CCECCF8B2DA1DB9C00D3976E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RitielenReis.BatalhaNavalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatalhaNaval.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BatalhaNaval";
+			};
+			name = Release;
+		};
+		CCECCF8D2DA1DB9C00D3976E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RitielenReis.BatalhaNavalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatalhaNaval;
+			};
+			name = Debug;
+		};
+		CCECCF8E2DA1DB9C00D3976E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RitielenReis.BatalhaNavalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatalhaNaval;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCECCF5C2DA1DB9A00D3976E /* Build configuration list for PBXProject "BatalhaNaval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECCF842DA1DB9C00D3976E /* Debug */,
+				CCECCF852DA1DB9C00D3976E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCECCF862DA1DB9C00D3976E /* Build configuration list for PBXNativeTarget "BatalhaNaval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECCF872DA1DB9C00D3976E /* Debug */,
+				CCECCF882DA1DB9C00D3976E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCECCF892DA1DB9C00D3976E /* Build configuration list for PBXNativeTarget "BatalhaNavalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECCF8A2DA1DB9C00D3976E /* Debug */,
+				CCECCF8B2DA1DB9C00D3976E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCECCF8C2DA1DB9C00D3976E /* Build configuration list for PBXNativeTarget "BatalhaNavalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCECCF8D2DA1DB9C00D3976E /* Debug */,
+				CCECCF8E2DA1DB9C00D3976E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCECCF592DA1DB9A00D3976E /* Project object */;
+}
